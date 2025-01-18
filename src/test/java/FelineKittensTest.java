@@ -5,12 +5,12 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 @RunWith(Parameterized.class)
-public class CatKittensTest {
+public class FelineKittensTest {
     private final int kittensCount;
     private final int expectedCount;
     Feline feline = new Feline();
 
-    public CatKittensTest(int kittensCount, int expectedCount) {
+    public FelineKittensTest(int kittensCount, int expectedCount) {
         this.kittensCount = kittensCount;
         this.expectedCount = expectedCount;
     }
